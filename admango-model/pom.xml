@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <artifactId>admingo-model</artifactId> 
+  <packaging>jar</packaging>
+  
+  <parent>
+  	<groupId>com.edeas.admango</groupId>
+  	<artifactId>admango-parents</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	<relativePath>../admango-parents/pom.xml</relativePath>
+  </parent>
+
+  <name>admingo-model</name>  
+
+  <dependencies>  	
+  	<dependency>
+		<groupId>com.edeas.basic</groupId>
+  		<artifactId>basic-hibernate</artifactId>  		
+  	</dependency>
+  	<dependency>
+  		<groupId>com.edeas.basic</groupId>
+  		<artifactId>basic-test</artifactId>	  		
+  		<scope>test</scope>
+  	</dependency>
+  </dependencies>
+</project>
